@@ -2482,7 +2482,7 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        const char* pszTimestamp = "DarkCash7/25";
+        const char* pszTimestamp = "mainTimeStamp";
         CTransaction txNew;
         txNew.nTime = 1406282900;
         txNew.vin.resize(1);
